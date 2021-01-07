@@ -1,8 +1,9 @@
 # Direct non-trilinear decomposition (DNTD)
 Source code of DNTD.
 
+**Abstract**： Trilinear decomposition has been employed in the analysis of three-way analytical data. However, it is difficult to keep a perfect trilinear structure for the data in real applications. A direct non-trilinear decomposition (DNTD) algorithm is proposed in this study for analyzing the three-way data with imperfect trilinearity caused by the shift or the variation of the chromatographic or spectral profiles in repeated measurements. In the method, two alternating steps are contained to resolve the constant and shifting profiles for each component, respectively. The first step is based on a pseudo-trilinear decomposition, and the second step involves a slice-based matrix decomposition. Furthermore, for reducing the ambiguity caused by the relaxation of trilinear constraint, an average profile regularization is introduced to enhance the convergence. Three datasets were used to validate the proposed method, including a simulated spectral dataset, a gas chromatography-mass spectrometry (GC-MS) dataset and a flow injection analysis (FIA) dataset. Furthermore, a comparison with parallel factor analysis (PARAFAC), alternating trilinear decomposition (ATLD) and PARAFAC2 was performed. The profiles with variant shifts were correctly extracted and a further understanding of the FIA dataset was obtained.
+**Key words**: High-dimension data analysis; Direct non-trilinear decomposition; Parallel factor analysis; Alternating trilinear decomposition; Parallel factor analysis 2; Shift decomposition.
 
-and the demonstration for DNTD
 
 # Use DNTD for a simulated tree-way NIR dataset with imperfect trilinearity
 Run test_simul.m script directly in Matlab environment
