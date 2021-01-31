@@ -5,14 +5,14 @@ Source code of DNTD.
 **Key words**: High-dimension data analysis; Direct non-trilinear decomposition; Parallel factor analysis; Alternating trilinear decomposition; Parallel factor analysis 2; Shift decomposition.
 
 
-# Use DNTD for a simulated tree-way NIR dataset with imperfect trilinearity
+# Use DNTD for a simulated tree-way dataset with imperfect trilinearity
 Run test_simul.m script directly in Matlab environment
 ```matlab
     test_simul.m
 ```
 
 # If some code is helpful for you, please cites the following reference:
-J Zhang, C Guo, WS Cai, XG Shao. Direct non-trilinear decomposition for analyzing high-dimensional data with imperfect trilinearity [J]. Chemometrics and Intelligent Laboratory Systems, 2021.
+J Zhang, C Guo, WS Cai, XG Shao. Direct non-trilinear decomposition for analyzing high-dimensional data with imperfect trilinearity [J]. Chemometrics and Intelligent Laboratory Systems, 2021, 210: 104244. (https://doi.org/10.1016/j.chemolab.2021.104244)
 
 # File Description
 N_way_toolbox:    A matlab toolbox containing useful functions for multi-way data analysis.    
